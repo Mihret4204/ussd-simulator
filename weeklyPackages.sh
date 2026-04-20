@@ -293,12 +293,12 @@ weeklyVoicePlusInternetPackage(){
 
 weeklyUnlimitedPackage() {
     printf "Weekly unlimited Packages
-        1. Br. 400 weekly unlimited internet
-        2. Br. 300 weekly unlimited social media Telegram + fACEBOOK + YouTube + Tiktok
-        3. Br. 200 weekly unlimited Voice
-        9. Back
-        99. Main Menu
-        "
+    1. Br. 400 weekly unlimited internet
+    2. Br. 300 weekly unlimited social media Telegram + fACEBOOK + YouTube + Tiktok
+    3. Br. 200 weekly unlimited Voice
+    9. Back
+    99. Main Menu
+    "
 
         read -p "Enter Your choice (0 to exit):" choice
   
