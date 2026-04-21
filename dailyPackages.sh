@@ -26,6 +26,7 @@ dailyInternetPackage(){
         elif [ "$confirm" == "99" ]; then
             start
         else
+            echo "Order cancelled."
             dailyInternetPackage
         fi
      done
@@ -43,6 +44,7 @@ dailyInternetPackage(){
         elif [ "$confirm" == "99" ]; then
             start
         else
+            echo "Order cancelled."
             dailyInternetPackage
         fi
      done
@@ -60,6 +62,7 @@ dailyInternetPackage(){
         elif [ "$confirm" == "99" ]; then
             start
         else
+            echo "Order cancelled."
             dailyInternetPackage
         fi
      done
@@ -104,6 +107,7 @@ dailyVoicePackage(){
         elif [ "$confirm" == "99" ]; then
             start
         else
+            echo "Order cancelled."
             dailyVoicePackage
         fi
      done
@@ -121,6 +125,7 @@ dailyVoicePackage(){
         elif [ "$confirm" == "99" ]; then
             start
         else
+            echo "Order cancelled."
             dailyVoicePackage
         fi
      done
@@ -138,6 +143,7 @@ dailyVoicePackage(){
         elif [ "$confirm" == "99" ]; then
             start
         else
+            echo "Order cancelled."
             dailyVoicePackage
         fi
      done
@@ -181,6 +187,7 @@ dailySocialMediaPackage(){
         elif [ "$confirm" == "99" ]; then
             start
         else
+            echo "Order cancelled."
             dailySocialMediaPackage
         fi
      done
@@ -198,6 +205,7 @@ dailySocialMediaPackage(){
         elif [ "$confirm" == "99" ]; then
             start
         else
+            echo "Order cancelled."
             dailySocialMediaPackage
         fi
      done
@@ -241,6 +249,7 @@ dailyVoicePlusInternetPackage(){
         elif [ "$confirm" == "99" ]; then
             start
         else
+            echo "Order cancelled."
             dailyVoicePlusInternetPackage
         fi
      done
@@ -258,6 +267,7 @@ dailyVoicePlusInternetPackage(){
         elif [ "$confirm" == "99" ]; then
             start
         else
+            echo "Order cancelled."
             dailyVoicePlusInternetPackage
         fi
      done
@@ -275,6 +285,7 @@ dailyVoicePlusInternetPackage(){
         elif [ "$confirm" == "99" ]; then
             start
         else
+            echo "Order cancelled."
             dailyVoicePlusInternetPackage
         fi
      done
@@ -316,6 +327,7 @@ dailyUnlimitedPackage() {
                 elif [ "$confirm" == "99" ]; then
                     start
                 else
+                    echo "Order cancelled."
                     dailyUnlimitedPackage
                 fi
             done
@@ -333,6 +345,7 @@ dailyUnlimitedPackage() {
                 elif [ "$confirm" == "99" ]; then
                     start
                 else
+                    echo "Order cancelled."
                     dailyUnlimitedPackage
                 fi
             done
@@ -350,6 +363,7 @@ dailyUnlimitedPackage() {
                 elif [ "$confirm" == "99" ]; then
                     start
                 else
+                    echo "Order cancelled."
                     dailyUnlimitedPackage
                 fi
             done
