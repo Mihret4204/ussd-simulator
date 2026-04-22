@@ -27,6 +27,7 @@ monthlyInternetPackage(){
         elif [ "$confirm" == "99" ]; then
             start
         else
+            echo "Order cancelled."
             monthlyInternetPackage
         fi
      done
@@ -44,6 +45,7 @@ monthlyInternetPackage(){
         elif [ "$confirm" == "99" ]; then
             start
         else
+            echo "Order cancelled."
             monthlyInternetPackage
         fi
      done
@@ -61,6 +63,7 @@ monthlyInternetPackage(){
         elif [ "$confirm" == "99" ]; then
             start
         else
+            echo "Order cancelled."
             monthlyInternetPackage
         fi
      done
@@ -104,6 +107,7 @@ monthlyVoicePackage(){
         elif [ "$confirm" == "99" ]; then
             start
         else
+            echo "Order cancelled."
             monthlyVoicePackage
         fi
      done
@@ -121,6 +125,7 @@ monthlyVoicePackage(){
         elif [ "$confirm" == "99" ]; then
             start
         else
+            echo "Order cancelled."
             monthlyVoicePackage
         fi
      done
@@ -138,6 +143,7 @@ monthlyVoicePackage(){
         elif [ "$confirm" == "99" ]; then
             start
         else
+            echo "Order cancelled."
             monthlyVoicePackage
         fi
      done
@@ -180,6 +186,7 @@ monthlySocialMediaPackage(){
         elif [ "$confirm" == "99" ]; then
             start
         else
+            echo "Order cancelled."
             monthlySocialMediaPackage
         fi
      done
@@ -197,6 +204,7 @@ monthlySocialMediaPackage(){
         elif [ "$confirm" == "99" ]; then
             start
         else
+            echo "Order cancelled."
             monthlySocialMediaPackage
         fi
      done
@@ -241,6 +249,7 @@ monthlyVoicePlusInternetPackage(){
         elif [ "$confirm" == "99" ]; then
             start
         else
+            echo "Order cancelled."
             monthlyVoicePlusInternetPackage
         fi
      done
@@ -258,6 +267,7 @@ monthlyVoicePlusInternetPackage(){
         elif [ "$confirm" == "99" ]; then
             start
         else
+            echo "Order cancelled."
             monthlyVoicePlusInternetPackage
         fi
      done
@@ -275,6 +285,7 @@ monthlyVoicePlusInternetPackage(){
         elif [ "$confirm" == "99" ]; then
             start
         else
+            echo "Order cancelled."
             monthlyVoicePlusInternetPackage
         fi
      done
@@ -317,6 +328,7 @@ monthlyUnlimitedPackage() {
                 elif [ "$confirm" == "99" ]; then
                     start
                 else
+                    echo "Order cancelled."
                     monthlyUnlimitedPackage
                 fi
             done
@@ -334,6 +346,7 @@ monthlyUnlimitedPackage() {
                 elif [ "$confirm" == "99" ]; then
                     start
                 else
+                    echo "Order cancelled."
                     monthlyUnlimitedPackage
                 fi
             done
@@ -351,6 +364,7 @@ monthlyUnlimitedPackage() {
                 elif [ "$confirm" == "99" ]; then
                     start
                 else
+                    echo "Order cancelled."
                     monthlyUnlimitedPackage
                 fi
             done

@@ -27,12 +27,12 @@ toWhom() {
       package ;;
     2 )
       while true; do
-        read -p "Enter recipient phone number (09... or 07...): " phone
-        if [[ $phone =~ ^(09|07)[0-9]{8}$ ]]; then
+        read -p "Enter recipient phone number (09...): " phone
+        if [[ $phone =~ ^(09)[0-9]{8}$ ]]; then
           recipient=$phone
           break
         else
-          echo "Invalid phone number! Must be 10 digits starting with 09 or 07."
+          echo "Invalid phone number! Must be 10 digits starting with 09."
         fi
       done
       clear 
